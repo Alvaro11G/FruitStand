@@ -6,4 +6,28 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\CamachoFull.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\camachofull.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\CamachoFull.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="Views\Home\camachofull.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+    <PackageReference Include="MySql.Data" Version="8.0.32" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,30 @@
+﻿@model Fruit
+
+<h3>@Model.FruitName Information</h3>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Bags</th>
+    </tr>
+    <tr>
+        <td>@Model.FruitName</td>
+        <td>@Model.Price</td>
+        <td>@Model.StockLevel</td>
+    </tr>
+
+</table>
+
+<div style="display: block">
+    <a href="/Fruit/UpdateFruit/@Model.FruitName">Update this Product</a>
+</div>
+
+<div style="display: block">
+    @using (Html.BeginForm("DeleteFruit", "Fruit", "Post"))
+    {
+        <input type="hidden" asp-for="FruitName" value="@Model.FruitName" />
+        <input type="submit" onclick="return confirm('Are you sure?')" value="Delete this product" />
+    }
+</div>
+

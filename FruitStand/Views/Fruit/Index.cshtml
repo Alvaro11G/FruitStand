@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Fruit>
+
+<h2>Fruits</h2>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Bags</th>
+    </tr>
+    
+    @foreach (var fruit in Model)
+    {
+     <tr>
+         <td><a href=/Fruit/ViewFruit/@fruit.FruitName>@fruit.FruitName</a></td>
+         <td>@fruit.Price</td>
+         <td>@fruit.StockLevel</td>
+     </tr>
+        
+    }
+</table>
+
+<div style="display: block">
+    <a href="/Fruit/InsertFruit/">Create a New Product</a>
+</div>

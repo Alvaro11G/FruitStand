@@ -15,6 +15,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\agarc\repos\FruitStand\FruitStand
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/agarc/repos/FruitStand/FruitStand/Views/Fruit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJ1aXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agarc/repos/FruitStand/FruitStand/Views/Fruit/InsertFruit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJ1aXRcSW5zZXJ0RnJ1aXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agarc/repos/FruitStand/FruitStand/Views/Fruit/UpdateFruit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJ1aXRcVXBkYXRlRnJ1aXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agarc/repos/FruitStand/FruitStand/Views/Fruit/ViewFruit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJ1aXRcVmlld0ZydWl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/agarc/repos/FruitStand/FruitStand/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
