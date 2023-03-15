@@ -26,8 +26,8 @@ namespace FruitStand
 
         public void UpdateFruit(Fruit fruit)
         {
-            _conn.Execute("UPDATE fruits SET FruitName = @name, Price = @price WHERE FruitName = @name",
-               new { name = fruit.FruitName, price = fruit.Price });
+            _conn.Execute("UPDATE fruits SET FruitName = @name, Price = @price, StockLevel = @stocklevel WHERE FruitName = @name",
+               new { name = fruit.FruitName, price = fruit.Price, stocklevel = fruit.StockLevel});
         }
 
         public void InsertFruit(Fruit fruitToInsert)
