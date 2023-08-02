@@ -252,3 +252,8 @@ C:\Users\agarc\repos\FruitStand\FruitStand\bin\Debug\net6.0\runtimes\unix\lib\ne
 C:\Users\agarc\repos\FruitStand\FruitStand\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\agarc\repos\FruitStand\FruitStand\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\agarc\repos\FruitStand\FruitStand\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\agarc\repos\FruitStand\FruitStand\obj\Debug\net6.0\staticwebassets\msbuild.FruitStand.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\agarc\repos\FruitStand\FruitStand\obj\Debug\net6.0\staticwebassets\msbuild.build.FruitStand.props
+C:\Users\agarc\repos\FruitStand\FruitStand\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FruitStand.props
+C:\Users\agarc\repos\FruitStand\FruitStand\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FruitStand.props
+C:\Users\agarc\repos\FruitStand\FruitStand\obj\Debug\net6.0\staticwebassets.pack.json

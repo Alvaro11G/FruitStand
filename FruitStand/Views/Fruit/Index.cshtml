@@ -12,14 +12,15 @@
     @foreach (var fruit in Model)
     {
      <tr>
-         <td><a href=/Fruit/ViewFruit/@fruit.FruitName>@fruit.FruitName</a></td>
+            <td><a class="link-dark" href=/Fruit/ViewFruit/@fruit.FruitName>@fruit.FruitName</a></td>
          <td>@fruit.Price</td>
          <td>@fruit.StockLevel</td>
      </tr>
         
     }
 </table>
-
+ 
 <div style="display: block">
-    <a href="/Fruit/InsertFruit/">Create a New Product</a>
+    <a class="link-dark" href="/Fruit/InsertFruit/">Create a New Product</a>
 </div>
+

@@ -11,17 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Views\Home\camachofull.png" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\CamachoFull.jpeg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Page Include="Views\Home\camachofull.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
   </ItemGroup>
 
   <ItemGroup>
