@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zpz1oWEE0woVsZEvz60dEhoMQ1hmHy6C+sKXk+bEIPE=",
+  "Hash": "9x1XV7tl9qvsHARQ+KVm1RPIHpCG1h7KFPaOv+Mh+WQ=",
   "Source": "FruitStand",
   "BasePath": "_content/FruitStand",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\agarc\\repos\\FruitStand\\FruitStand\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FruitStand.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\agarc\\repos\\FruitStand\\FruitStand\\wwwroot\\CamachoApple.png",
+      "SourceId": "FruitStand",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\agarc\\repos\\FruitStand\\FruitStand\\wwwroot\\",
+      "BasePath": "_content/FruitStand",
+      "RelativePath": "CamachoApple.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CamachoApple.png"
     },
     {
       "Identity": "C:\\Users\\agarc\\repos\\FruitStand\\FruitStand\\wwwroot\\css\\site.css",

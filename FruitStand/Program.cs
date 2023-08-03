@@ -44,7 +44,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     // name? is from FruitRepository.GetFruit
-    pattern: "{controller=Home}/{action=Index}/{name?}");
+    pattern: "{controller=Home}/{action=HomeIndex}/{name?}");
 
 app.Run();
 
